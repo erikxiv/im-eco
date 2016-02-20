@@ -2,7 +2,7 @@
 
 module.exports = function(environment) {
   var ENV = {
-    modulePrefix: 'informationmeet',
+    modulePrefix: 'eco',
     environment: environment,
     baseURL: '/',
     locationType: 'auto',
@@ -23,7 +23,7 @@ module.exports = function(environment) {
       'img-src': "'self' https://*.googleusercontent.com",
       'font-src': "'self' data: https://cdn.auth0.com https://fonts.gstatic.com",
       'style-src': "'self' 'unsafe-inline' https://fonts.googleapis.com",
-      'script-src': "'self' 'unsafe-eval' 'unsafe-inline' https://cdn.auth0.com https://cdn.eu.auth0.com informationmeet.eu.auth0.com docker.local:49152",
+      'script-src': "'self' 'unsafe-eval' 'unsafe-inline' https://cdn.auth0.com https://cdn.eu.auth0.com informationmeet.eu.auth0.com docker.local:49152 js-agent.newrelic.com bam.nr-data.net",
       'connect-src': "'self' http://localhost:* ws://docker.local:* informationmeet.eu.auth0.com"
     },
 

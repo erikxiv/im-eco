@@ -1,7 +1,7 @@
 {
-  "name": "informationmeet",
+  "name": "eco",
   "version": "1.0.0",
-  "description": "Information Meet main site",
+  "description": "Personal economy",
   "private": true,
   "directories": {
     "doc": "doc",
